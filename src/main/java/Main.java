@@ -43,6 +43,6 @@ public class Main {
                 break;
         }
         double vf = preco-(preco*(desconto/100));
-        JOptionPane.showMessageDialog(null, "O cliente " + nome + " pagará no produto o valor de R$" + vf);
+        JOptionPane.showMessageDialog(null, "O cliente " + nome + " pagará no produto o valor de = R$ %.2f%n" + vf);
     }
 }
